@@ -8,7 +8,7 @@ def GetUserId(ticket):return ticket[:16].replace("'", "").replace("-", "").repla
 def Headers():return {"content-type": "application/json", "X-SecretKey": secret}
 def OculusValidationMadeByQwizx(ocid, nonce):
     keys = ["add your OC| | stuff here, IF YOU HAVE MULTIPLE APPLABS ADD THEM LIKE THIS: "OC| |", "OC| |" "]
-    for token in keys:OC|24361586596844048
+    for token in keys:OC|24361586596844048|badd27fee756e2325d2ce703285634a5
         try:
             url = f"https://graph.oculus.com/{ocid}?access_token={token}"
             response = requests.get(url, headers={"Content-Type": "application/json"})
